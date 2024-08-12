@@ -29,19 +29,22 @@ body {
     min-height: 100vh;
 }
 
-.informacoes h1 {
-    font-size: 35px;
-    color: #ffffff;
-    margin-bottom: 80px;
-    font-family: "GOT";
-    letter-spacing: 8px;
-
-}
-
 @font-face {
-    font-family: "GOT";
-    src: url(../fontes/GOT.ttf);
+    font-family: TB;
+    src: url("../fontes/TB.ttf");
 }
+
+.informacoes h1 {
+    font-size: 55px;
+    color: red; /* Cor do preenchimento do texto */
+    margin-bottom: 10px;
+    font-family: 'TB', sans-serif; /* Fonte personalizada */
+    letter-spacing: 8px;
+    -webkit-text-stroke: 0.1px #FFFFFF; /* Contorno branco de 2px */
+    padding: 10px;
+    text-align: left;
+}
+
 
 .informacoes .descricao {
     width: 49%;
